@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+/* start nav */
+.navbar{
+    background-color: #f4511e !important;
+    z-index: 900;
+    /* padding-right: 7rem;
+    padding-left: 7rem;  */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar .navbar-toggler-icon{
+    color: white !important;
+}
+.navbar a {
+    color: white !important;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.nav-link{
+    line-height: 2;
+}
+.nav-link.active{
+     background-color: white !important;
+     color: #f4511e !important;
+}
+/* end nav */
+/* start header */
+.company{
+    text-align: center;
+    background-color: #f4511e;
+    padding: 60px 0px;
+}
+.company .comp{
+    color: white;
+    font-size: 64px;
+    font-weight:400;
+}
+.company .plapla{
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+}
+#button-addon2{
+    background-color: #ec6339;
+    color: white;
+}
+#button-addon2:hover {
+    background-color: #ad300a;
+}
+/* end header */
+/* start about */
+.container-fluid .about{
+    
+}
+/* end about */
+/* start values */
+.values{
+    background-color: #f6f6f6;
+}
+.container-fluid div p .tbold{
+    font-weight: bolder;
+}
+#icolor{
+    color: #f4511e;
+}
+/* end values */
+/* start portfolio */
+.portfolio{
+    background-color: #f6f6f6;
+}
+.portfolio .card{
+    border: none;
+}
+/*  end portfolio */
+/* start customer */
+#customer{
+    background-color: #f6f6f6;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    filter: none;
+    color: #f4511e !important;
+    background-image: none;
+}
+.carousel-control-prev , .carousel-control-next {
+    opacity:1 !important;
+    color: #f4511e !important;
+}
+.fasolid {
+    text-shadow: 1px 1px #f4511e !important;
+}
+/*
+.container-fluid #carouselExampleDark .carousel-indicators{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid #f4511e;
+}
+.container-fluid #carouselExampleDark .carousel-indicators:hover{
+    background-color: #f4511e;
+    border: 1px solid #f4511e;
+}
+*/ 
+
+/* end customer */
+
+/* start pricing */
+#pricing{
+    background-color: white;
+}
+#pricing .basic , .pro , .premium {
+    background-color: #f4511e;
+    color: white;
+    font-size: 32px;
+    font-weight: bolder;
+}
+#pricing .card-header{
+    background-color: #f4511e !important;
+}
+#pricing .card-body {
+    border: 1px solid #f4511e;
+}
+#pricing .card-body .btn{
+    background-color: #f4511e;
+    color: white;
+}
+/* end pricing */
+/* start contact */
+#contact {
+    background: #f6f6f6;
+}
+
+/* end contact */
+/* start map */
+#map .fa-angle-up{
+    color: #f4511e;
+    text-shadow: 1px 2px #f4511e;
+}
+/* end map */
